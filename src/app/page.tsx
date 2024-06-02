@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div className='d-flex justify-center text-success bg-white'>page</div>
   )
 }
 
