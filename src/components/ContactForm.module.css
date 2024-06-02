@@ -1,0 +1,30 @@
+/* ContactForm.module.css */
+.contactForm {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contactForm h2 {
+    color: #343a40;
+  }
+  
+  .contactForm .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .contactForm .btn {
+    background-color: #007bff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactForm .btn:hover {
+    background-color: #0056b3;
+  }
+  
