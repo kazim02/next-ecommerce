@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 interface Product {
+  rating: any;
   id: number;
   title: string;
   price: number;
