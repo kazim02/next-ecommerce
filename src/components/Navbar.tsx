@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container-fluid">
         <Link href="/" passHref>
-          <span className="navbar-brand">E-Commerce</span>
+          <span className="navbar-brand">Ker-Infotech</span>
         </Link>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
