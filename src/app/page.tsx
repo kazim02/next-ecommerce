@@ -1,10 +1,11 @@
-"use client";
+'use client';
 
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState, AppDispatch } from "../redux/store";
 import { fetchProducts } from "../redux/slices/productSlice";
 import ProductCard from "../components/ProductCard";
+import Loader from "../components/Loader";
 
 const HomePage: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -53,6 +54,10 @@ const HomePage: React.FC = () => {
   );
 
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
+
+  if (status === "loading") {
+    return <Loader />;
+  }
 
   return (
     <div className="container mt-5">

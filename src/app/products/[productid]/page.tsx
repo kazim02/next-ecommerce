@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import axios from 'axios';
+import Loader from '@/components/Loader';
 
 interface Product {
   id: number;
@@ -40,7 +41,7 @@ const ProductDetailPage: React.FC = () => {
     }
   }, [productid]);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div><Loader/></div>;
   if (!product) return <div>Product not found</div>;
 
   return (
