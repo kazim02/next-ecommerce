@@ -5,6 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import styles from "./ContactForm.module.css";
 
+// Add validation using zod schema 
 const schema = z.object({
   name: z
     .string()
@@ -27,6 +28,7 @@ const schema = z.object({
 
 type FormData = z.infer<typeof schema>;
 
+// Array of object
 const formFields = [
   { id: "name", label: "Name", type: "text", validation: schema.shape.name },
   {
