@@ -1,4 +1,4 @@
-Here's an updated version of your README file that includes the additional information about the skills, technologies, and APIs used in your small e-commerce project:
+ e-commerce project:
 
 Next.js E-commerce Project
 This is a Next.js project bootstrapped with create-next-app.
