@@ -1,53 +1,26 @@
- e-commerce project:
+E-Commerce Website
+🌟 Overview
+This is an e-commerce web application designed to showcase my advanced front-end development skills. 
+The project is still under development with many features coming soon. 🚧
 
-Next.js E-commerce Project
-This is a Next.js project bootstrapped with create-next-app.
+🎯 Purpose
+The goal of this project is to demonstrate my proficiency with Next.js, TypeScript, and state management tools like Redux Toolkit.
+ It also incorporates Zod schema for validation and React Hook Form for handling forms.
 
-Getting Started
+🛠️ Tools & Technologies
+⚡ Next.js 14
+🌐 TypeScript
+🎨 Tailwind CSS
+🗃️ Redux Toolkit for global state management
+📄 Zod Schema for form validation
+📝 React Hook Form for form handling
+🔄 Axios for API requests and data handling
+🚀 Project Status
+The project is still under development, with many new features planned for future versions. ✨
 
-First, run the development server:
-npm run dev
-
-# or
-
-yarn dev
-
-# or
-
-pnpm dev
-
-# or
-
-bun dev
-
-Open http://localhost:3000 with your browser to see the result.
-
-You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
-
-This project uses next/font to automatically optimize and load Inter, a custom Google Font.
-
-Skills and Technologies
-This project demonstrates the following skills and technologies:
-
-Next.js: Application routing and server-side rendering.
-Bootstrap: Responsive design and UI components.
-TypeScript: Type-safe JavaScript.
-React-Hook-Form: Form handling and validation.
-Axios: HTTP client for API requests.
-Zod Schema: Type validation with Zod.
-Redux Toolkit: State management.
-FakeStoreAPI: Mock API for product data.
-API
-This project uses the FakeStoreAPI to fetch product data.
-
-Learn More
-To learn more about Next.js, take a look at the following resources:
-
-Next.js Documentation - learn about Next.js features and API.
-Learn Next.js - an interactive Next.js tutorial.
-You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
-
-Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
-
-Check out our Next.js deployment documentation for more details.
+🔑 Features (Planned)
+🛍️ Product listing and filtering
+🛒 Shopping cart functionality
+💳 Payment gateway integration
+📦 Order tracking and history
+🛠️ Admin dashboard for product management
